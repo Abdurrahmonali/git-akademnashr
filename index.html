@@ -11,30 +11,33 @@
   <!-- stage - saqlashga tayyorlash -->
   <!-- commit - nom berib saqlab qoyish -->
   <!-- repo -loyihaning boshqacha nomi -->
-  <header>
+  <header class="site-header">
     <a href="index.html"><img src="img/logo-akademnashr.svg" alt="Sayt logosi" width="227" height="59"></a>
 
     <div>
-      <nav>
-        <a href="#" class="home">Bosh sahifa</a>
-        <a href="#" class="books">Kitoblar</a>
-        <a href="#" class="discounts">Aksiyalar</a>
-        <a href="#" class="contacts">Kontaktlar</a>
+      <nav class="site-nav">
+        <a href="#" class="site-nav-link">Bosh sahifa</a>
+        <a href="#" class="site-nav-link">Kitoblar</a>
+        <a href="#" class="site-nav-link">Aksiyalar</a>
+        <a href="#" class="site-nav-link">Kontaktlar</a>
       </nav>
-      <a href="#" class="registration">Ro'yxatdan o'tish</a>
+      <a href="#" ><button class="registration">Ro'yxatdan o'tish</button></a>
     </div>
   </header>
-  <main>
 
+  <!-- HERO -->
+  <main>
     <section class="phythons-section">
-      <div class="phthons-texts">
-        <hr class="hr-phython">
-        <h2 class="theme-phython">Pythonda dasturlash <br>asoslari</h2>
-        <p class="phython-text"
-        >Dasturlash asoslariga oid o‘zbek tilidagi ilk eng <br>mukammal qo‘llanma. Kitobning har bir bo‘limi <br>uchun maxsus video darslar yozilgan bo‘lib, ularga <br>kitobda ko‘rsatilgan QR kod orqali o‘tish mumkin.</p>
-        <a href="#" class="phthon-order">Buyurtma berish</a>
+      <div class="primary-button">
+        <div class="phthons-texts">
+          <hr class="hr-phython">
+          <h2 class="theme-phython">Pythonda dasturlash <br>asoslari</h2>
+          <p class="phython-text"
+          >Dasturlash asoslariga oid o‘zbek tilidagi ilk eng <br>mukammal qo‘llanma. Kitobning har bir bo‘limi <br>uchun maxsus video darslar yozilgan bo‘lib, ularga <br>kitobda ko‘rsatilgan QR kod orqali o‘tish mumkin.</p>
+          <a href="#"><button class="road-discount">Buyurtma berish</button></a>
+        </div>
+        <img src="img/python-book.jpg" alt="Python kitobi rasmi" srcset="img/python-book.jpg 1x, img/python-book@2x.jpg 2x" width="510" class="phthon-image">
       </div>
-      <img src="img/python-book.jpg" alt="Python kitobi rasmi" srcset="img/python-book.jpg 1x, img/python-book@2x.jpg 2x" class="phthon-image" width="510" height="510">
     </section>
 
 
@@ -44,7 +47,7 @@
 
       <div class="answers-div">
         <div class="div-easy">
-          <img src="img/feature-icon-oson.svg" alt="oson iconkasi" width="100" height="100">
+          <img src="img/feature-icon-oson.svg" alt="oson iconkasi" width="100">
           <div class="easy-texts">
             <h3 class="easy-theme">Oson buyurtma qilish</h3>
             <p class="easy-p">Akademnashr.uz saytidan o’zingizga <br>yoqqan kitobni sodda usulda buyurtma <br>qila olasiz.</p>
@@ -67,19 +70,20 @@
       </div>
     </section>
 
-
+<!-- PROMO -->
     <section class="discount-section">
       <div class="div-discount">
         <div class="discount-texts">
           <h2 class="discount-theme">Bolalar kitoblari uchun
             <br>ajoyib aksiya!</h2>
             <div class="discount-pp">
-              <p class="discount-p-one">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish <br>uchun turli mashq qo’llanmalari va komikslar.</p>
-              <p class="discount-p-two">Aksiyadagi eng katta to’plamda <strong class="p-strong-one">50 ta kitob</strong>ni <strong class="p-strong-two">350 ming <br>so’m</strong>ga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
+              <p class="discount-p">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish <br>uchun turli mashq qo’llanmalari va komikslar.</p>
+              <p class="discount-p">Aksiyadagi eng katta to’plamda <strong class="p-strong">50 ta kitob</strong>ni <strong class="p-strong">350 ming <br>so’m</strong>ga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
             </div>
-            <img src="img/sale-img.jpg" alt="Aksiya rasmi" width="440" height="440" srcset="img/sale-img.jpg 1x, img/sale-img@2x.jpg 2x" class="discount-image">
+            <img src="img/sale-img.jpg" alt="Aksiya rasmi" width="440" srcset="img/sale-img.jpg 1x, img/sale-img@2x.jpg 2x" class="discount-image">
           </div>
-          <a href="#" class="road-discount">Buyurtma berish</a>
+          <a href="#"><button class="road-discount">Buyurtma berish</button></a>
+
         </div>
       </section>
     </main>
@@ -95,39 +99,50 @@
         </div>
       </div>
       <hr class="hr-footer">
-      <div style="width: 1100px; height: 229px;">
-        <div class="menyu-one">
-            <a href="#" class="footer-home">Bosh sahifa</a>
-              <a href="#" class="footer-books">Kitoblar</a>
-                <a href="#" class="footer-discount">Aksiyalar</a>
-                  <a href="#" class="footer-news">Yangiliklar</a>
-                    <a href="#" class="footer-contacts">Kontaktlar</a>
 
-                  </div>
-                  <div class="menyu-two">
+<div class="footer-links">
 
-                      <a href="#" class="nashrlar">Ilmiy nashrlar</a>
-                        <a href="#" class="ilmiy-ommabop" style=>Ilmiy-ommabop nashrlar</a>
-                          <a href="#" class="marifiy">Ma’rifiy nashrlar</a>
-                            <a href="#" class="lugatlar">Lug’atlar</a>
-                              <a href="#" class="adabiy">Adabiy-badiiy nashrlar</a>
-                                <a href="#" class="abituriyent">Abituriyentlar uchun</a>
-                                  <a href="#" class="bolalar">Bolalar uchun</a>
-                                </div>
+          <ul class="link-group-one">
+            <li><a href="#" class="links">Bosh sahifa</a></li>
+            <li><a href="#" class="links">Kitoblar</a></li>
+            <li><a href="#" class="links">Aksiyalar</a></li>
+            <li><a href="#" class="links">Yangiliklar</a></li>
+            <li><a href="#" class="links">Kontaktlar</a></li>
+          </ul>
 
-                                <div class="menyu-three">
-                                    <a href="#" class="savollar">Ko’p so’raladigan savollar</a>
-                                      <a href="#" class="cargo">Yetkazib berish haqida</a>
-                                        <a href="#" class="abaut-payme">To’lov usullari haqida</a>
-                                      </div>
 
-                                      <div class="menyu-four">
-                                          <a href="#" class="works">Bo’sh ish o’rinlari</a>
-                                            <a href="#" class="boglanish">Biz bilan bog’lanish</a>
-                                              <a href="#" class="maxfiylik">Maxfiylik nizomi</a>
-                                              </ul>
-                                            </div>
-                                          </div>
-                                        </footer>
-                                      </body>
-                                      </html>
+
+
+          <ul class="link-group-two">
+            <li><a href="#" class="links">Ilmiy nashrlar</a></li>
+            <li><a href="#" class="links">Ilmiy-ommabop nashrlar</a></li>
+            <li><a href="#" class="links">Ma’rifiy nashrlar</a></li>
+            <li><a href="#" class="links">Lug’atlar</a></li>
+
+            <li><a href="#" class="links">Adabiy-badiiy nashrlar</a></li>
+            <li><a href="#" class="links">Abituriyentlar uchun</a></li>
+            <li><a href="#" class="links">Bolalar uchun</a></li>
+          </ul>
+
+
+
+          <ul class="link-group-three">
+            <li><a href="#" class="links">Ko’p so’raladigan savollar</a></li>
+            <li><a href="#" class="links">Yetkazib berish haqida</a></li>
+            <li><a href="#" class="links">To’lov usullari haqida</a></li>
+          </ul>
+
+
+
+          <ul class="link-group-four">
+            <li><a href="#" class="links">Bo’sh ish o’rinlari</a></li>
+            <li><a href="#" class="links">Biz bilan bog’lanish</a></li>
+            <li><a href="#" class="links">Maxfiylik nizomi</a></li>
+          </ul>
+</div>
+
+
+
+    </footer>
+  </body>
+  </html>

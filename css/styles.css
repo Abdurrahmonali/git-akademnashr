@@ -1,45 +1,37 @@
-.home {
-  color: black;     font-size: 13px;
-  font-weight: 500;
-  line-height: 15px;
-  letter-spacing: 1px;
-  text-align: left;
-  text-decoration: none;
+/* HEADER */
+.site-header {
+  width: 1440px;
+  height: 97px;
+  background-color: #ffffff;
 }
-.books {
-  color: black;     font-size: 13px;
-        font-weight: 500;
-        line-height: 15px;
-        letter-spacing: 1px;
-        text-align: left;
-        text-decoration: none;
+/* SITE-NAV */
+.site-nav {
+width: 1100px;
+height: 60px;
 }
-.discounts {
-  color: black;     font-size: 13px;
-        font-weight: 500;
-        line-height: 15px;
-        letter-spacing: 1px;
-        text-align: left;
-        text-decoration: none;
+.site-nav-link {
+text-decoration: none;
+color: #252420;
 }
-.contacts {
-  color: black;     font-size: 13px;
-        font-weight: 500;
-        line-height: 15px;
-        letter-spacing: 1px;
-        text-align: left;
-        text-decoration: none;
-}
+
 .registration {
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 15px;
-  letter-spacing: 0.5px;
-  text-align: left;
-  text-decoration: none; background-color: #FF7500; color: white;
+ background-color: #FF7500;
+ color: white;
+ text-decoration: none;
+ width: 155px;
+ height: 39px;
 }
+
+/* HERO */
 .phythons-section {
-  background-color: black; color: white; width: 1440px; height: 488px;
+  background-color: black;
+  color: white;
+  width: 1440px;
+   height: 550px;
+}
+.primary-button {
+  width: 1440px;
+  height: 488px;
 }
 .phthons-texts {
   width: 387px;
@@ -48,15 +40,17 @@
   left: 170px;
 }
 .hr-phython {
+ background-color: #FF7500;
   width: 80px; height: 3px;
 }
 .theme-phython {
+  width: 399px;
+  height: 96px;
   font-family: Roboto Condensed;
   font-size: 40px;
   font-weight: 700;
   line-height: 48px;
   letter-spacing: 0.5px;
-  text-align: left;
 }
 .phython-text {
   width: 387px;
@@ -65,31 +59,32 @@
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.5px;
-  text-align: left;
 }
 .phthon-order {
-  font-size: 13px;
+
   font-weight: 700;
-  line-height: 15px;
-  letter-spacing: 0.5px;
-  text-align: left;
-  text-decoration: none; background-color: #FF7500; color: rgb(250, 250, 250); width: 152px; height: 39px;
+  letter-spacing: 0.5px; background-color: #FF7500; color: rgb(250, 250, 250); width: 152px; height: 39px;
 }
 .phthon-image {
-  width: 510px; height: 510px;
+  width: 510px;
 }
+
+/* FETURES */
 .questions-section {
-  background-color: white; width: 1440px; height: 936px;
+  background-color: white;
+  width: 1440px;
+  height: 936px;
 }
 .questions-hr {
-  width: 80px; height: 3px; background-color: #FF7500; left: 170px;
+  width: 80px;
+  height: 3px;
+  background-color: #FF7500;
 }
 .question-theme {
   font-size: 72px;
   font-weight: 700;
   line-height: 86px;
   letter-spacing: 0.5px;
-  text-align: left;
   width: 435px;
   height: 172px;
 }
@@ -101,15 +96,15 @@
   width: 340px; height: 245px;
 }
 .easy-texts {
-  width: 340px; height: 113px;
+
+  width: 340px;
+  height: 113px;
 }
 .easy-theme {
-  font-family: Roboto Condensed;
   font-size: 24px;
   font-weight: 700;
   line-height: 29px;
   letter-spacing: 0.5px;
-  text-align: left;
 }
 .easy-p {
   width: 314px; height: 72px;
@@ -117,7 +112,6 @@
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.5px;
-  text-align: left;
 }
 .div-best {
   width: 340px;
@@ -131,7 +125,6 @@
   font-weight: 700;
   line-height: 29px;
   letter-spacing: 0.5px;
-  text-align: left;
 }
 .best-p {
   width: 314px; height: 72px;
@@ -139,7 +132,6 @@
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.5px;
-  text-align: left;
 }
 .div-fast {
   width: 340px;
@@ -153,7 +145,6 @@
   font-weight: 700;
   line-height: 29px;
   letter-spacing: 0.5px;
-  text-align: left;
 }
 .fast-p {
   width: 314px; height: 72px;
@@ -161,80 +152,51 @@
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.5px;
-  text-align: left;
 }
+
+/* PROMO */
 .discount-section {
-  background-color: black;
    color: white;
    width: 1100px;
    height: 504px;
 }
 .div-discount {
+  background-color: #252420;
   width: 1100px;
   height: 419px;
 }
 .discount-texts {
-  width: 440px; height: 291px;
+  width: 440px;
+  height: 291px;
 }
 .discount-theme {
-  font-size: 40px;
-  width: 373px;
-  height: 96px;
-  font-weight: 700;
-  line-height: 48px;
-  letter-spacing: 0.5px;
-  text-align: left;
+width: 373px;
+height: 96px;
 }
 .discount-pp {
   width: 440px;
   height: 108px;
 }
-.discount-p-one {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0px;
-  text-align: left;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.5px;
-  text-align: left;
+.discount-p {
+  width: 440px;
+  height: 48px;
 }
-.discount-p-two {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0px;
-  text-align: left;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.5px;
-  text-align: left;
-}
-.p-strong-one {
-  color:#FF7500;
-}
-.p-strong-two {
+.p-strong {
   color:#FF7500;
 }
 .discount-image {
-  object-fit: cover; object-position: right;
+width: 440px;
+
 }
 .road-discount {
   background-color: #FF7500;
   color: white;
-  width: 440px;
-  height: 440px;
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 15px;
-  letter-spacing: 0.5px;
-  text-align: left;
+  width: 152px;
+  height: 39px;
   text-decoration: none;
 }
 .footer {
+  background-color: #F8F8F8;
   width: 1440px;
   height: 507px;
 }
@@ -250,176 +212,27 @@
   height: 2px;
   background-color: #FF7500;
 }
-.menyu-one {
-  width: 224px; height: 159px;
+.footer-links {
+width: 1100px;
+height: 229px;
 }
-.footer-home {
-  color:#FF7500;     font-size: 16px;
-  font-weight: 400;
-  line-height: 19px;
-  letter-spacing: 0px;
-  text-align: left;
+.link-group-one {
+width: 224px;
+height: 159px;
+}
+.link-group-two {
+width: 224px;
+height: 229px;
+}
+.link-group-three {
+width: 224px;
+height: 89px;
+}
+.link-group-four {
+  width: 224px;
+  height: 89px;
+}
+.links {
   text-decoration: none;
-}
-.footer-books {
-  color: black;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19px;
-  letter-spacing: 0px;
-  text-align: left;
-  text-decoration: none;
-}
-.footer-discount {
-  color: black;
-    font-size: 16px;
-  font-weight: 400;
-  line-height: 19px;
-  letter-spacing: 0px;
-  text-align: left;
-  text-decoration: none;
-}
-.footer-news {
-  color: black;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19px;
-  letter-spacing: 0px;
-  text-align: left;
-  text-decoration: none;
-}
-.footer-contacts {
-  color: black;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19px;
-  letter-spacing: 0px;
-  text-align: left;
-  text-decoration: none;
-}
-.menyu-two {
-  width: 224px; height: 229px;
-}
-.nashrlar {
-  color:#FF7500;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19px;
-  letter-spacing: 0px;
-  text-align: left;
-  text-decoration: none;
-}
-.ilmiy-ommabop {
-  color: black;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19px;
-  letter-spacing: 0px;
-  text-align: left;
-  text-decoration: none;
-}
-.marifiy {
-  color: black;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19px;
-  letter-spacing: 0px;
-  text-align: left;
-  text-decoration: none;
-}
-.lugatlar {
-  color: black;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19px;
-  letter-spacing: 0px;
-  text-align: left;
-  text-decoration: none;
-}
-.adabiy {
-  color: black;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19px;
-  letter-spacing: 0px;
-  text-align: left;
-  text-decoration: none;
-}
-.abituriyent {
-  color: black;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19px;
-  letter-spacing: 0px;
-  text-align: left;
-  text-decoration: none;
-}
-.bolalar {
-  color: black;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19px;
-  letter-spacing: 0px;
-  text-align: left;
-  text-decoration: none;
-}
-.menyu-three {
-  width: 224px; height: 89px;
-}
-.savollar {
-  color:#FF7500;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19px;
-  letter-spacing: 0px;
-  text-align: left;
-  text-decoration: none;
-}
-.cargo {
-  color: black;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19px;
-  letter-spacing: 0px;
-  text-align: left;
-  text-decoration: none;
-}
-.abaut-payme {
-  color: black;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19px;
-  letter-spacing: 0px;
-  text-align: left;
-  text-decoration: none;
-}
-.menyu-four {
-  width: 224px; height: 89px;
-}
-.works {
-  color:#FF7500;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19px;
-  letter-spacing: 0px;
-  text-align: left;
-  text-decoration: none;
-}
-.boglanish {
-  color: black;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19px;
-  letter-spacing: 0px;
-  text-align: left;
-  text-decoration: none;
-}
-.maxfiylik{
-color: black;
-font-size: 16px;
-font-weight: 400;
-line-height: 19px;
-letter-spacing: 0px;
-text-align: left;
-text-decoration: none;
+  color: #252420;
 }
