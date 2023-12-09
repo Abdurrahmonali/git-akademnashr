@@ -1,3 +1,10 @@
+body {
+font-size: 16px;
+line-height: 1.5;
+font-family: "Roboto", "Arial", sans-serif;
+letter-spacing: 0.5px;
+text-decoration: none;
+}
 /* HEADER */
 .site-header {
   width: 1440px;
@@ -10,16 +17,17 @@ width: 1100px;
 height: 60px;
 }
 .site-nav-link {
-  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
 text-decoration: none;
-color: #252420;
+color: #000000;
 }
 
 .registration {
-  font-family: "Roboto", san-serif;
+font-weight: 700;
  background-color: #FF7500;
  color: white;
- text-decoration: none;
  width: 155px;
  height: 39px;
 }
@@ -32,11 +40,11 @@ color: #252420;
    height: 550px;
 }
 .primary-button {
+  font-weight: 700;
   width: 1440px;
   height: 488px;
 }
 .phthons-texts {
-  font-family: "Roboto", sans-serif;
   width: 387px;
   height: 328px;
 }
@@ -48,18 +56,17 @@ color: #252420;
 font-family: "Roboto Condensed", sans-serif;
   width: 399px;
   height: 96px;
+  font-size: 40px;
   line-height: 48px;
 }
 .phython-text {
   width: 387px;
   height: 96px;
-  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   line-height: 24px;
 }
-.phthon-order {
-  font-family: "Roboto Condensed", sans-serif;
+.phthon-button {
   font-weight: 700;
-  letter-spacing: 0.5px;
   background-color: #FF7500;
   color: rgb(250, 250, 250);
   width: 152px;
@@ -85,7 +92,6 @@ font-family: "Roboto Condensed", sans-serif;
   font-size: 72px;
   font-weight: 700;
   line-height: 86px;
-  letter-spacing: 0.5px;
   width: 435px;
   height: 172px;
 }
@@ -97,7 +103,7 @@ font-family: "Roboto Condensed", sans-serif;
   width: 340px; height: 245px;
 }
 .easy-texts {
-  font-family: "Roboto", sans-serif;
+  font-weight: 700;
   width: 340px;
   height: 113px;
 }
@@ -109,58 +115,47 @@ font-family: "Roboto Condensed", sans-serif;
   letter-spacing: 0.5px;
 }
 .easy-p {
-  font-family: "Roboto", sans-serif;
   width: 314px;
   height: 72px;
-  font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.5px;
 }
 .div-best {
   width: 340px;
   height: 245px;
 }
 .best-texts {
-  font-family: "Roboto", sans-serif;
   width: 340px;
   height: 113px;
 }
 .best-theme {
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 24px;
   font-weight: 700;
   line-height: 29px;
-  letter-spacing: 0.5px;
 }
 .best-p {
-  width: 314px; height: 72px;
-  font-size: 16px;
+  width: 314px;
+  height: 72px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0.5px;
 }
 .div-fast {
   width: 340px;
   height: 245px;
 }
 .fast-texts {
-  width: 340px; height: 113px;
+  width: 340px;
+  height: 113px;
+   font-weight: 400;
 }
 .fast-theme {
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 24px;
   font-weight: 700;
   line-height: 29px;
-  letter-spacing: 0.5px;
 }
 .fast-p {
-  font-family: "Roboto", sans-serif;
-  width: 314px; height: 72px;
-  font-size: 16px;
+  width: 314px;
+  height: 72px;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.5px;
 }
 
 /* PROMO */
@@ -175,22 +170,22 @@ font-family: "Roboto Condensed", sans-serif;
   height: 419px;
 }
 .discount-texts {
-  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   width: 440px;
   height: 291px;
 }
 .discount-theme {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 width: 373px;
 height: 96px;
 }
 .discount-pp {
-  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   width: 440px;
   height: 108px;
 }
 .discount-p {
-  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   width: 440px;
   height: 48px;
 }
@@ -201,11 +196,12 @@ height: 96px;
 width: 440px;
 }
 .road-discount {
+  line-height: 16px;
+  font-weight: 700;
   background-color: #FF7500;
   color: white;
   width: 152px;
   height: 39px;
-  text-decoration: none;
 }
 /* FOOTER */
 .footer {
@@ -250,6 +246,7 @@ height: 89px;
   height: 89px;
 }
 .links {
-  text-decoration: none;
+  font-weight: 400;
+  line-height: 19px;
   color: #252420;
 }
