@@ -37,15 +37,31 @@ height: 15px;
   font-size: 13px;
   line-height: 16px;
 text-decoration: none;
+text-align: center;
 color: #000000;
 }
-
+.site-nav-link:focus {
+  background-color: #9f5e24;
+  color: gold;
+}
+.site-nav-link:hover {
+  background-color: #9f5e24;
+  color: gold;
+}
 .registration {
 font-weight: 700;
  background-color: #FF7500;
  color: white;
  width: 155px;
  height: 39px;
+}
+.registration:hover {
+  background-color: #9f5e24;
+  color: gold;
+}
+.registration:focus {
+  background-color: #9f5e24;
+  color: gold;
 }
 
 /* HERO */
@@ -91,6 +107,15 @@ font-family: "Roboto Condensed", sans-serif;
   width: 152px;
   height: 39px;
 }
+.phthon-button:focus {
+  background-color: #9f5e24;
+  color: gold;
+}
+.phthon-button:hover {
+  background-color: #9f5e24;
+  color: gold;
+}
+
 .phthon-image {
   justify-content: flex-start;
   width: 510px;
@@ -249,6 +274,9 @@ width: 440px;
   width: 104px;
   height: 24px;
 }
+.sotsial-links:hover {
+  background-color: #a25716;
+}
 .footer-icon {
   justify-content: center;
 }
@@ -287,4 +315,7 @@ height: 89px;
   line-height: 19px;
   color: #252420;
   text-decoration: none;
+}
+.links:hover {
+  color: #FF7500;
 }
