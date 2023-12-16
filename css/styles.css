@@ -1,9 +1,13 @@
+* {
+  box-sizing: border-box;
+}
 body {
 font-size: 16px;
 line-height: 1.5;
 font-family: "Roboto", "Arial", sans-serif;
 letter-spacing: 0.5px;
 text-decoration: none;
+display: block;
 }
 *:focus {
   outline-color: #1e00ff;
@@ -31,12 +35,15 @@ text-decoration: none;
   align-items: center;
 }
 /* SITE-NAV */
-.site-nav {
-width: 610px;
+
+.ul-nav {
+  width: 610px;
 height: 39px;
 display: flex;
 justify-content: flex-end;
 align-items: center;
+  padding: 0%;
+  margin: 0%;
 }
 .site-nav-link {
 width: 92px;
@@ -48,6 +55,7 @@ text-decoration: none;
 text-align: center;
 color: #000000;
 transition: 0.4s ease;
+margin-left: 32px;
 }
 .site-nav-link:focus {
   background-color: #9f5e24;
@@ -68,6 +76,8 @@ font-weight: 700;
  transition: 0.4s ease;
  text-decoration: none;
   padding: 12px 24px;
+  margin: 0%;
+  margin-left: 32px;
 }
 .registration:hover {
   background-color: #9f5e24;
@@ -102,6 +112,7 @@ font-weight: 700;
 .hr-phython {
  background-color: #FF7500;
   width: 80px; height: 3px;
+  margin: 0%;
 }
 .theme-phython {
 font-family: "Roboto Condensed", sans-serif;
@@ -109,12 +120,14 @@ font-family: "Roboto Condensed", sans-serif;
   height: 96px;
   font-size: 40px;
   line-height: 48px;
+  margin: 0%;
 }
 .phython-text {
   width: 387px;
   height: 96px;
   font-weight: 400;
   line-height: 24px;
+  margin: 0%;
 }
 .phthon-button {
   font-weight: 700;
@@ -123,6 +136,7 @@ font-family: "Roboto Condensed", sans-serif;
   width: 152px;
   height: 39px;
   transition: 0.4s ease;
+  margin: 0%;
 }
 .phthon-button:focus {
   background-color: #9f5e24;
@@ -139,6 +153,7 @@ font-family: "Roboto Condensed", sans-serif;
   padding-left: 760;
   padding-top: 137;
   border-radius: 8px;
+  margin: 0%;
 }
 
 /* FETURES */
@@ -151,6 +166,7 @@ font-family: "Roboto Condensed", sans-serif;
   width: 80px;
   height: 3px;
   background-color: #FF7500;
+  margin: 0%;
 }
 .question-theme {
   width: 435px;
@@ -162,6 +178,8 @@ font-family: "Roboto Condensed", sans-serif;
   width: 435px;
   height: 172px;
   padding-left: 170px;
+  margin: 0%;
+  display: block;
 }
 .answers-div {
   display: flex;
@@ -169,6 +187,7 @@ font-family: "Roboto Condensed", sans-serif;
   width: 1100px;
   height: 245px;
   padding-left: 170px;
+  margin: 0%;
 }
 .div-easy {
   width: 340px; height: 245px;
@@ -184,11 +203,13 @@ font-family: "Roboto Condensed", sans-serif;
   font-weight: 700;
   line-height: 29px;
   letter-spacing: 0.5px;
+  margin: 0%;
 }
 .easy-p {
   width: 314px;
   height: 72px;
   font-weight: 400;
+  margin: 0%;
 }
 .div-best {
   width: 340px;
@@ -202,12 +223,14 @@ font-family: "Roboto Condensed", sans-serif;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 700;
   line-height: 29px;
+  margin: 0%;
 }
 .best-p {
   width: 314px;
   height: 72px;
   font-weight: 400;
   line-height: 24px;
+  margin: 0%;
 }
 .div-fast {
   width: 340px;
@@ -222,11 +245,13 @@ font-family: "Roboto Condensed", sans-serif;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 700;
   line-height: 29px;
+  margin: 0%;
 }
 .fast-p {
   width: 314px;
   height: 72px;
   font-weight: 400;
+  margin: 0%;
 }
 
 /* PROMO */
@@ -253,6 +278,7 @@ font-family: "Roboto Condensed", sans-serif;
   font-family: "Roboto Condensed", sans-serif;
 width: 373px;
 height: 96px;
+margin: 0%;
 }
 .discount-pp {
   font-weight: 400;
@@ -263,14 +289,21 @@ height: 96px;
   font-weight: 400;
   width: 440px;
   height: 48px;
+  margin-top: 0px;
+  margin-bottom: 16px;
 }
 .p-strong {
   color:#FF7500;
+}
+.discount-p:last-child {
+  margin: 0px;
 }
 .discount-image {
 width: 440px;
 }
 .road-discount {
+  text-decoration: none;
+  text-align: center;
   display: inline-block;
   line-height: 16px;
   font-weight: 700;
@@ -279,6 +312,7 @@ width: 440px;
   width: 152px;
   height: 39px;
   transition: 0.4s ease;
+  margin: 0%;
 }
 .road-discount:hover {
   background-color: #9f5e24;
@@ -327,6 +361,7 @@ opacity: 0.8;
   width: 1100px;
   height: 2px;
   background-color: #FF7500;
+  margin: 0%;
 }
 .footer-links {
   display: flex;
@@ -334,26 +369,31 @@ width: 1100px;
 height: 229px;
 font-size: 16px;
 padding-left: 170px;
+margin: 0%;
 }
 .link-group-one {
   list-style: none;
 width: 224px;
 height: 159px;
+margin: 0%;
 }
 .link-group-two {
   list-style: none;
 width: 224px;
 height: 229px;
+margin: 0%;
 }
 .link-group-three {
   list-style: none;
 width: 224px;
 height: 89px;
+margin: 0%;
 }
 .link-group-four {
   list-style: none;
   width: 224px;
   height: 89px;
+  margin: 0%;
 }
 .links {
   font-weight: 400;
