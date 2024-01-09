@@ -1,13 +1,36 @@
-* {
+html {
   box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+:root {
+  --brand-color: #FF7500;
+  --border: 2px solid var(--brand-color);
+--background-color: var(--brand-color);
+--font-family-text: Open Sans Condensed;
+--font-weight: 700;
+--align-items: center;
+--text-align: var(--align-items);
 }
 body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 font-size: 16px;
 line-height: 1.5;
 font-family: "Roboto", "Arial", sans-serif;
 letter-spacing: 0.5px;
 text-decoration: none;
 display: block;
+margin-left: auto;
+margin-right: auto;
 }
 *:focus {
   outline-color: #1e00ff;
@@ -20,6 +43,7 @@ display: block;
   width: 1440px;
   height: 97px;
   background-color: #ffffff;
+  box-shadow: 0px 4px 10px 0px #0000000D;
 }
 .site-header-two {
   width: 1440px;
@@ -150,10 +174,12 @@ font-family: "Roboto Condensed", sans-serif;
 .phthon-image {
   justify-content: flex-start;
   width: 510px;
+  border-radius: 8px;
   padding-left: 760;
   padding-top: 137;
   border-radius: 8px;
   margin: 0%;
+  box-shadow: 24 24 0 0 #FF7500;
 }
 
 /* FETURES */
